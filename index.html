@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>flower shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <!--bootsrap icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg pb-3">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="flower-shop-logo-vector-9616092.jpg" alt=""
+          style="height: 80%; width:15vh ;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#discount">
+              blog
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#about"> about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#contact"> contact</a>
+        </ul>
+        <form class="d-flex">
+          <input class=" px-2 search" type="search" placeholder="Search" aria-label="Search">
+          <button class=" btn1 me-2" type="submit">Search</button>
+          <span><i class="bi bi-bag-check"></i></span>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!---====================================-->
+
+  <section class="main">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-6">
+          <p class="m-0">SELAMAT DATANG </p>
+          <h1>flower shop</h1>
+          <p>vidya ayu ningtyas</p>
+          <div class="line my-4"></div>
+          <p>You’re frustrated because you keep waiting for the blooming of flowers of which you have yet to sow the
+            seeds</p>
+          <a class="btn mbtn2" href="#product1" role="button">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--================about==================-->
+
+  <section class="about">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-lg-5 offset-lg 7 col-md-6 col-sm-12 col-12">
+          <h1 id="about">About me</h1>
+          <div class="line my-4"></div>
+          <p>Bunga mawar digemari karena penampilannya yang cantik dan aromanya yang harum.
+            Cara menanam bunga mawar juga tidak sulit, namun perlu perawatan yang rutin.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!--==================welcome======================-->
+
+  <section class="welcome text-center pb-5">
+    <div class="container py-5">
+      <div class="row py-5 text-white">
+        <div class="col-lg-6 m-auto">
+          <p class="m-0"> pink agriculture</p>
+          <h1> welcome to flower shop </h1>
+          <div class="line2 my-4"></div>
+          <p>we call ultimate we simply believe webside we call it
+            ultimate because we simply believe every webside needs tobe well presented at the</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <span><i class="bi bi-shop-window"></i></span>
+              <h2>Always Fresh</h2>
+              <p class="card-text">Aenean spllicitudin, lorem quis</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <span><i class="bi bi-shop-window"></i></span>
+              <h2>Always Fresh</h2>
+              <p class="card-text">Aenean spllicitudin, lorem quis</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <span><i class="bi bi-shop-window"></i></span>
+              <h2>Always Fresh</h2>
+              <p class="card-text">Aenean spllicitudin, lorem quis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!--=======================product======================-->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">jenis bunga</label>
+              <input type="jenis bunga" class="form-control" id="jenis bunga" aria-describedby="jenis bunga">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">harga</label>
+              <input type="harga" class="form-control" id="harga">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">kondisi dan kualitas</label>
+              <input type="kondisi dan kualitas" class="form-control" id="kondisi dan kualitas"
+                aria-describedby="kondisi dan kualitas">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">penyedia informasi</label>
+              <input type="penyedia informasi" class="form-control" id="penyedia informasi"
+                aria-describedby="penyedia informasi">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">metode pembayaran</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected></option>
+                <option value="1">tunai</option>
+                <option value="2">Transfer Bank</option>
+                <option value="3">Transfer Bank</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">pengiriman</label>
+              <input type="pengiriman" class="form-control" id="pengiriman" aria-describedby="pengiriman">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="product bg-light">
+    <section class="container ">
+      <div class="row text-center">
+        <div class="col-lg-6 m-auto">
+          <p class="m-0"> pink agriculture</p>
+          <h1 id="product1"> our best product </h1>
+          <div class="line my-4"></div>
+          <p>we call ultimate we simply believe webside we call it
+            ultimate because we simply believe every webside needs tobe well presented at the</p>
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-lg-3">
+          <div class="card p-2">
+            <div class="card-body">
+              <div class="star">
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+              </div>
+              <img src="images.jpg" class="img-fluid pb-3" alt="">
+              <h4>mawar</h4>
+              <p>2 x 454g / 16oz</p>
+              <h4>Rp 45.000</h4>
+              <button class="btnc my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card p-2">
+            <div class="card-body">
+              <div class="star">
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+              </div>
+              <img src="download3.jpg" class="img-fluid pb-3" alt="">
+              <h4>tulip</h4>
+              <p>2 x 454g / 16oz</p>
+              <h4>Rp 75.000</h4>
+              <button class="btnc my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card py-2">
+            <div class="card-body">
+              <div class="star">
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star"></i></span>
+                <span><i class="bi bi-star"></i></span>
+              </div>
+              <img src="melati2.jpg" class="img-fluid pb-3" alt="">
+              <h4>melati</h4>
+              <p>2 x 454g / 16oz</p>
+              <h4>Rp 35.000</h4>
+              <button class="btnc my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card py-2">
+            <div class="card-body">
+              <div class="star">
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star"></i></span>
+              </div>
+              <img src="kaptus2.jpg" class="img-fluid pb-3" alt="">
+              <h4>kaktus</h4>
+              <p>2 x 454g / 16oz</p>
+              <h4>Rp 47.000</h4>
+              <button class="btnc my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card py-2">
+            <div class="card-body">
+              <div class="star">
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+              </div>
+              <img src="Anggrek2.webp" class="img-fluid pb-3" alt="">
+              <h4>Anggrek</h4>
+              <p>2 x 454g / 16oz</p>
+              <h4>Rp 40.000</h4>
+              <button class="btnc my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card p-2">
+            <div class="card-body">
+              <div class="star">
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star"></i></span>
+                <span><i class="bi bi-star"></i></span>
+              </div>
+              <img src="matahari.jpg" class="img-fluid pb-3" alt="">
+              <h4>matahari</h4>
+              <p>2 x 454g / 16oz</p>
+              <h4>Rp 55.000</h4>
+              <button class="btnc my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card p-2">
+            <div class="card-body">
+              <div class="star">
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+              </div>
+              <img src="lavender2.jpg" class="img-fluid pb-3" alt="">
+              <h4>Lavender</h4>
+              <p>2 x 454g / 16oz</p>
+              <h4>Rp 45.000</h4>
+              <button class="btnc my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card p-2">
+            <div class="card-body">
+              <div class="star">
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+              </div>
+              <img src="bunga-kembang-sepatu.jpg" class="img-fluid pb-3" alt="">
+              <h4>Bunga kembang-sepatu</h4>
+              <p>2 x 454g / 16oz</p>
+              <h4>Rp 35.000</h4>
+              <button class="btnc my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--=====================discount=====================-->
+    <section class="discount py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-10 m-auto text-center">
+            <h1 id="discount">Diskon 20%</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--=====================discount=====================-->
+    <section class="store by-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 m-auto">
+            <p class="m-0"> pink agriculture</p>
+            <h1> our best product </h1>
+            <div class="line my-4"></div>
+            <p>we call ultimate we simply believe webside we call it
+              ultimate because we simply believe every webside needs tobe well presented at the</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 mt-2">
+            <div class="card py-3">
+              <div class="card-body">
+                <span><i class="bi bi-truck"></i></span>
+                <h5 class="head1 py-3">free shipping</h5>
+                <p class="per1">with or more orders.go to aors store,</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-2">
+            <div class="card py-3">
+              <div class="card-body">
+                <span><i class="bi bi-truck"></i></span>
+                <h5 class="head1 py-3">free shipping</h5>
+                <p class="per1">with or more orders.go to aors store,</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-2">
+            <div class="card py-3">
+              <div class="card-body">
+                <span><i class="bi bi-truck"></i></span>
+                <h5 class="head1 py-3">free shipping</h5>
+                <p class="per1">with or more orders.go to aors store,</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-2">
+            <div class="card py-3">
+              <div class="card-body">
+                <span><i class="bi bi-truck"></i></span>
+                <h5 class="head1 py-3">free shipping</h5>
+                <p class="per1">with or more orders.go to aors store,</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===========seller===============-->
+    <section class="seller by-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 m-auto">
+            <h1>New Arrival</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="row">
+                <div class="col-lg-6"><img src="images.jpg" class="img-fluid" alt=""></div>
+                <div class="col-lg-6 p-5">
+                  <span><i class="bi bi-star-fill"></i></span>
+                  <span><i class="bi bi-star-fill"></i></span>
+                  <span><i class="bi bi-star-fill"></i></span>
+                  <span><i class="bi bi-star-fill"></i></span>
+                  <h5 class="head1">fresh mawar</h5>
+                  <p class="per1">2 x 454g / 16oz</p>
+                  <h5 class="head1">Rp 45.000</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="row">
+                <div class="col-lg-6"><img src="melati2.jpg" class="img-fluid" alt=""></div>
+                <div class="col-lg-6 p-5">
+                  <span><i class="bi bi-star-fill"></i></span>
+                  <span><i class="bi bi-star-fill"></i></span>
+                  <span><i class="bi bi-star"></i></span>
+                  <span><i class="bi bi-star"></i></span>
+                  <h5 class="head1">fresh melati</h5>
+                  <p class="per1">2 x 454g / 16oz</p>
+                  <h5 class="head1">Rp 45.000</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="row">
+                <div class="col-lg-6 p-5"><img src="matahari.jpg" class="img-fluid" alt=""></div>
+                <div class="col-md-4">
+                  <span><i class="bi bi-star-fill"></i></span>
+                  <span><i class="bi bi-star-fill"></i></span>
+                  <span><i class="bi bi-star"></i></span>
+                  <span><i class="bi bi-star"></i></span>
+                  <h5 class="head1">fresh matahari</h5>
+                  <p class="per1">2 x 454g / 16oz</p>
+                  <h5 class="head1">Rp 45.000</h5>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-6"><img src="Anggrek2.webp" class="img-fluid" alt=""></div>
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star"></i></span>
+              <h5 class="head1">fresh matahari</h5>
+              <p class="per1">2 x 454g / 16oz</p>
+              <h5 class="head1">Rp 45.000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============contact================-->
+
+    <section class="contact py-5">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-lg-7"><p class="m-0"> pink agriculture</p>
+            <h1 id="contact"> our best product </h1>
+            <div class="line my-4"></div>
+            <p>we call ultimate we simply believe webside we call it
+              ultimate because we simply believe every webside needs tobe well presented at the</p>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-lg-6">
+            <div class="row pt-2">
+              <div class="col-lg-3 col-sm-3 col-2">
+                <div class="circle"></div>
+            </div>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nama anda">
+                <div id="name" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">email</label>
+                <input type="email" class="form-control" id="Handphone" aria-describedby="Telepon">
+                <div id="name" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Notelp</label>
+                <input type="text" class="form-control" id="nomorhp" aria-describedby="ponsel">
+                <div id="name" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">pesan</label>
+                <input type="text" class="form-control" id="pesan" aria-describedby="pesan">
+                <div id="name" class="form-text"></div>
+              <div class="mb-3 form-check">
+              </div>  
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-9 pt-3">
+        </div>
+      </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
